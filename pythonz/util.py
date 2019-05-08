@@ -16,7 +16,8 @@ if not PY3K:
     from urllib import quote as urlquote, unquote as urlunquote
     from urllib2 import urlparse
 else:
-    from urllib.parse import urlparse, quote as urlquote, unquote as urlunquote
+    from urllib import parse as urlparse
+    from urllib.parse import quote as urlquote, unquote as urlunquote
 
 from pythonz.define import PATH_PYTHONS
 from pythonz.log import logger
@@ -47,7 +48,7 @@ def splitext(name):
 
 def is_archive_file(name):
     ext = splitext(name)[1].lower()
-    return ext in ('.zip', '.tar.gz', '.tar.bz2', '.tgz', '.tar')
+    return ext in ('.zip', '.tar.gz', '.tar.bz2', '.tgz', '.tar', '.jar')
 
 def is_html(content_type):
     return content_type and content_type.startswith('text/html')

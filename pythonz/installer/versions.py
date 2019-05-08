@@ -36,6 +36,10 @@ versions = {
         '2.7.9': 'c8bba33e66ac3201dabdc556f0ea7cfe6ac11946ec32d357c4c6f9b018c12c5b',
         '2.7.10': 'eda8ce6eec03e74991abb5384170e7c65fcd7522e409b8e83d7e6372add0f12a',
         '2.7.11': '82929b96fd6afc8da838b149107078c02fa1744b7e60999a8babbc0d3fa86fc6',
+        '2.7.12': '3cb522d17463dfa69a155ab18cffa399b358c966c0363d6c8b5b3bf1384da4b6',
+        '2.7.13': 'a4f05a0720ce0fd92626f0278b6b433eee9a6173ddf2bced7957dfb599a5ece1',
+        '2.7.14': '304c9b202ea6fbd0a4a8e0ad3733715fbd4749f2204a9173a58ec53c32ea73e8',
+        '2.7.15': '18617d1f15a380a919d517630a9cd85ce17ea602f9bbdc58ddc672df4b0239db',
         '3.0': '4d5d6ab2f893144a382ae1ea1de88a7825eb98111e26cfde627b9f3d9fd462b4',
         '3.0.1': '7d5f2feae9035f1d3d9e6bb7f092dbf374d6bb4b25abd0d2d11f13bba1cb04de',
         '3.1': '99a034cf574ea3c26412b0a0728126d7fd6ea9593d099d807a25d216ed031e6a',
@@ -61,8 +65,31 @@ versions = {
         '3.4.1': '8d007e3ef80b128a292be101201e75dec5480e5632e994771e7c231d17720b66',
         '3.4.2': '44a3c1ef1c7ca3e4fd25242af80ed72da941203cb4ed1a8c1b724d9078965dd8',
         '3.4.3': '8b743f56e9e50bf0923b9e9c45dd927c071d7aa56cd46569d8818add8cf01147',
+        '3.4.4': 'bc93e944025816ec360712b4c42d8d5f729eaed2b26585e9bc8844f93f0c382e',
+        '3.4.5': '997aca4dd8692f3c954658a3db11c1d0862bcbf8eadd6a164746eb33d317c034',
+        '3.4.6': 'fe59daced99549d1d452727c050ae486169e9716a890cffb0d468b376d916b48',
+        '3.4.7': '1614734847fd07e2a1ab1c65ae841db2433f8b845f49b34b7b5cabcb1c3f491f',
+        '3.4.8': '8b1a1ce043e132082d29a5d09f2841f193c77b631282a82f98895a5dbaba1639',
+        '3.4.9': 'e02e565372750a6678efe35ddecbe5ccd5330a8a2e8bbe38d3060713492e3dab',
         '3.5.0': '584e3d5a02692ca52fce505e68ecd77248a6f2c99adf9db144a39087336b0fe0',
-        '3.5.1': '687e067d9f391da645423c7eda8205bae9d35edc0c76ef5218dcbe4cc770d0d7'
+        '3.5.1': '687e067d9f391da645423c7eda8205bae9d35edc0c76ef5218dcbe4cc770d0d7',
+        '3.5.2': '1524b840e42cf3b909e8f8df67c1724012c7dc7f9d076d4feef2d3eff031e8a0',
+        '3.5.3': 'd8890b84d773cd7059e597dbefa510340de8336ec9b9e9032bf030f19291565a',
+        '3.5.4': '6ed87a8b6c758cc3299a8b433e8a9a9122054ad5bc8aad43299cff3a53d8ca44',
+        '3.5.5': '2f988db33913dcef17552fd1447b41afb89dbc26e3cdfc068ea6c62013a3a2a5',
+        '3.5.6': '30d2ff093988e74283e1abfee823292c6b59590796b9827e95ba4940b27d26f8',
+        '3.6.0': 'aa472515800d25a3739833f76ca3735d9f4b2fe77c3cb21f69275e0cce30cb2b',
+        '3.6.1': 'aa50b0143df7c89ce91be020fe41382613a817354b33acdc6641b44f8ced3828',
+        '3.6.2': '7919489310a5f17f7acbab64d731e46dca0702874840dadce8bd4b2b3b8e7a82',
+        '3.6.3': 'ab6193af1921b30f587b302fe385268510e80187ca83ca82d2bfe7ab544c6f91',
+        '3.6.4': '7dc453e1a93c083388eb1a23a256862407f8234a96dc4fae0fc7682020227486',
+        '3.6.5': '53a3e17d77cd15c5230192b6a8c1e031c07cd9f34a2f089a731c6f6bd343d5c6',
+        '3.6.6': '7d56dadf6c7d92a238702389e80cfe66fbfae73e584189ed6f89c75bbf3eda58',
+        '3.6.7': 'b7c36f7ed8f7143b2c46153b7332db2227669f583ea0cce753facf549d1a4239',
+        '3.6.8': '7f5b1f08b3b0a595387ef6c64c85b1b13b38abef0dd871835ee923262e4f32f0',
+        '3.7.0': '85bb9feb6863e04fb1700b018d9d42d1caac178559ffa453d7e6a436e259fd0d',
+        '3.7.1': '36c1b81ac29d0f8341f727ef40864d99d8206897be96be73dc34d4739c9c9f06',
+        '3.7.2': 'f09d83c773b9cc72421abba2c317e4e6e05d919f9bcf34468e192b6a6c8e328d'
     },
     'stackless': {
         '2.6.5': 'ac1956d7f9715cc56e92992d39b24f0869cd9955fd2b8cf52b163530194d07b1',
@@ -70,68 +97,136 @@ versions = {
         '3.1.3': '7aab20f509b5e3ad14a8e7c316401ac51377048ae85325ac3838a1494c019863',
         '3.2.2': '779700f12b451a350fe7af4cd2849842adc7006dc83fe14712dd1a0999277b07',
         '3.2.5': 'b021125e578ddd267d38feee9e1cbdb675f6aab247a2b88f4494abcf23babb05',
-        '3.3.5': '197b41ccd7ec998ff612c67df9b8eb827a58f4eda715ca034c43c94bf17d5c0f'
+        '3.3.5': '6558d1cb8c768ad95339fb9ca8b23106ce54c03ae67e9f75a84334d08489d240'
     },
     'pypy': {
-        '1.8': {'linux': '9c293d8540780260718f8fd8dc433c97b614a31b115ccfe2d68df720ad7e55b1',
-                'linux64': '1045606cceb993844a016b76c55aa43a9924bcf526f91a0572fc97cee69b61dc',
-                'darwin': 'b823b6b919082cfb67861b8253313b877618672377164086c0364fa8eaa88b8a'},
-        '1.9': {'linux': '1e3f9c3d06f8bbfa0dcb1301b40c298096249a7d7c2b4594b3fb1c3e7b9888f2',
-                'linux64': '4298252515e78c96f4ecd9f25be957411c060ece02d9213eef8d781cf528d18f',
-                'darwin': '4858f200e32c1070c77c1234ea0e9473eeda98bcd3832c4231f3e46e4e3b74b1'},
-        '2.0': {'linux': '275dbbee67eac527a1177403a0386b17d008740f83030544800d87994edd46b9',
-                'linux64': '14c716d53a507eece89606d547456b886dbdfc0ba6e3fb29062fafe86d1b6038',
-                'darwin': '6d190f32c9dce9d36d4a2bb91faed581a50fb7fa6249eee201dbf5dbc3e3c7d7'},
-        '2.0.1': {'linux': '548686c5b95b424c79586d9a303ed41fca8eba52bd35c1527f39f5cd8fa35ea9',
-                  'linux64': '0eb57e28f2bd5f2a4ad396df322de5adf711eb7d9a2bfeb8be2d9eb9e125c5cc',
-                  'darwin': '337f2fda672827f2d706fd98e3344a83a8b80675e21b83dd6933da38d110c857'},
-        '2.0.2': {'linux': '3b43c1ac147f6bb11981dd7f8c5458b95d6bdcf1adceb8043c32ca5e8fcab4da',
-                  'linux64': '3f9bc07959a2d6058a0c1b84da837e2ec457642fe03ac46123d145c419a7b5cd',
-                  'darwin': '34f5a7bf22a8bca3b9d79ae3186016c34638669ab19b4af6e38412181c757761'},
-        '2.1': {'linux': '9c0a38a40d3b4e642a159e51abef2827b33e3f7a254365daa24eae85d840eaf5',
-                'linux64': '80f90bb473635a0249049e87c5cc7cf738e13537c1f1e2857b6345848a3e6d20',
-                'darwin': 'd0d788c6d54bb866ace67a1740133cb5bc62357b5ca4783244097f1f648876f0'},
-        '2.2': {'linux': '2bdab70106f6b6d0dd97e42535ce73711c987887fb81fb821801f6fdcd92cdc4',
-                'linux64': '1583af0122c6ccb0cb95f8c3732925551ce3ca6d5ea0657e21523f8bf97837a3',
-                'darwin': '8aa943de7ec38f13fa836b6964dbf58b45142e4fe7b3fdd5fffe37fdcf974e01'},
-        '2.2.1': {'linux': '4d13483a0e13fc617a7b3d36918ed0e63cf07a7d2827c0a08132b80bc401a55a',
-                  'linux64': '022d611ac62a276890d3e262f4f7cc839fcf9f5e1416df01dcd83ba335eacb16',
-                  'darwin': '93e215dcffc9073acf41c63518f47fb59de60386aca4416cfe32190c7a096f29'},
-        '2.3': {'linux': '9071072d42344fb37cc588429864b00fff447bd5d33d51008641fe6822823f1b',
-                'linux64': '777dbdd9c67ad1b8906288b01ae76bc9f7b80c95e967836f9a700a1679b80008',
-                'darwin': 'df7ca23ba6c8a63149d910b482be04f069b26dd1f7d0ca15e6342cac94e759d7'},
-        '2.3.1': {'linux': '3eed698e8533cca7cbd2c2c87fce39dc14baa7dec03f4b082d870131d2a470e4',
-                  'linux64': 'dab7940496d96f1f255a8ef402fa96b94444775e373484e057d2fcabc3928b42',
-                  'darwin': '12e363bf5ea3a508600e043b68c47d4148359ca3d999ee207665bb139f8fbf37'},
-        '2.4.0': {'linux': 'a24adb366f87ac0eba829d7188a156a7d897e71893689fab06502c3f4152ac0e',
-                  'linux64': '27cdc0d6e8bce2637678f6d076fc780877dffe1bf9aec9e253f95219af9ed099',
-                  'darwin': '3eb8afdfa42bc9b08b4d3058e21d4ce978a52722fdcfdc67d6c3ee5013a51aaa'},
-        '2.5.0': {'linux': '3dfd56a986d25929b4ed9f40a5484f72f1d513cd816cf8aaa683106c3391247c',
-                  'linux64': '7764fb6b662407f8709eaa334c542aac9cb6bfe3291ac198dad0980ca129f3c2',
-                  'darwin': '30b392b969b54cde281b07f5c10865a7f2e11a229c46b8af384ca1d3fe8d4e6e'},
-        '2.5.1': {'linux': 'c0035a2650cafcb384050a8c476ddc41c9fd40b0c3677fab68026f57c715907a',
-                  'linux64': '68e0955dbc80a0d51dfa9a8a76d8623f34920ece1bcbc6d910c2be019a653ba8',
-                  'darwin': 'db40dc8b5e95ef9c3322bd9897099e91555ef34188cf1c3852a92b081142d183'},
-        '2.6.0': {'linux': '6e0b052c40a59bf5a85ee239980bbcab8b031b4c2bc33b99efe1b072977d9910',
-                  'linux64': 'f5d2b0e3594cec57e32d3e43a951041ec330e1e962a836be470d591633e51388',
-                  'darwin': '77f1d056484e40e0a8e2e2b2b489eedfe785605ef36b144ffce05f7b748f6acd'},
-        '2.6.1': {'linux': 'd010b1f1aafdb01beb107f16843985508ce81698260ce830690686d9b2768c88',
-                  'linux64': '78a48490d1b2dba8571156c2bf822324ca7dae6f6a56a4bbb96d3e8e8885367b',
-                  'darwin': '4a78ef76ec38a49a9de40225c337e89486fa09938c600df2bd2dd60110066f65'},
-        '4.0.0': {'linux': '365600947775bc73a902a5b1d11f8b96cf49f07cdbbab28bb47240097b4bb4c5',
-                  'linux64': '30365cf4fa6cd8e9ff44126f06dcaebefda35c2543ddcf9b9e8516c29cabe726',
-                  'darwin': 'd9e590fe5b9461bbdff56c76636e844ef90a297f82d0d2e204866c8a21759a50'},
-        '4.0.1': {'linux': '721920fcbb6aefc9a98e868e32b7f4ea5fd68b7f9305d08d0a2595327c9c0611',
-                  'linux64': '0d6090cee59f4b9bab91ddbea76580d0c232b78dae65aaa9e8fa8d4449ba25b4',
-                  'darwin': '06be1299691f7ea558bf8e3bdf3d20debb8ba03cd7cadf04f2d6cbd5fd084430'}
-                },
+        '1.8': {
+            'linux': '9c293d8540780260718f8fd8dc433c97b614a31b115ccfe2d68df720ad7e55b1',
+            'linux64': '1045606cceb993844a016b76c55aa43a9924bcf526f91a0572fc97cee69b61dc',
+            'darwin': 'b823b6b919082cfb67861b8253313b877618672377164086c0364fa8eaa88b8a'
+        },
+        '1.9': {
+            'linux': '1e3f9c3d06f8bbfa0dcb1301b40c298096249a7d7c2b4594b3fb1c3e7b9888f2',
+            'linux64': '4298252515e78c96f4ecd9f25be957411c060ece02d9213eef8d781cf528d18f',
+            'darwin': '4858f200e32c1070c77c1234ea0e9473eeda98bcd3832c4231f3e46e4e3b74b1'
+        },
+        '2.0': {
+            'linux': '275dbbee67eac527a1177403a0386b17d008740f83030544800d87994edd46b9',
+            'linux64': '14c716d53a507eece89606d547456b886dbdfc0ba6e3fb29062fafe86d1b6038',
+            'darwin': '6d190f32c9dce9d36d4a2bb91faed581a50fb7fa6249eee201dbf5dbc3e3c7d7'
+        },
+        '2.0.1': {
+            'linux': '548686c5b95b424c79586d9a303ed41fca8eba52bd35c1527f39f5cd8fa35ea9',
+            'linux64': '0eb57e28f2bd5f2a4ad396df322de5adf711eb7d9a2bfeb8be2d9eb9e125c5cc',
+            'darwin': '337f2fda672827f2d706fd98e3344a83a8b80675e21b83dd6933da38d110c857'
+        },
+        '2.0.2': {
+            'linux': '3b43c1ac147f6bb11981dd7f8c5458b95d6bdcf1adceb8043c32ca5e8fcab4da',
+            'linux64': '3f9bc07959a2d6058a0c1b84da837e2ec457642fe03ac46123d145c419a7b5cd',
+            'darwin': '34f5a7bf22a8bca3b9d79ae3186016c34638669ab19b4af6e38412181c757761'
+        },
+        '2.1': {
+            'linux': '9c0a38a40d3b4e642a159e51abef2827b33e3f7a254365daa24eae85d840eaf5',
+            'linux64': '80f90bb473635a0249049e87c5cc7cf738e13537c1f1e2857b6345848a3e6d20',
+            'darwin': 'd0d788c6d54bb866ace67a1740133cb5bc62357b5ca4783244097f1f648876f0'
+        },
+        '2.2': {
+            'linux': '2bdab70106f6b6d0dd97e42535ce73711c987887fb81fb821801f6fdcd92cdc4',
+            'linux64': '1583af0122c6ccb0cb95f8c3732925551ce3ca6d5ea0657e21523f8bf97837a3',
+            'darwin': '8aa943de7ec38f13fa836b6964dbf58b45142e4fe7b3fdd5fffe37fdcf974e01'
+        },
+        '2.2.1': {
+            'linux': '4d13483a0e13fc617a7b3d36918ed0e63cf07a7d2827c0a08132b80bc401a55a',
+            'linux64': '022d611ac62a276890d3e262f4f7cc839fcf9f5e1416df01dcd83ba335eacb16',
+            'darwin': '93e215dcffc9073acf41c63518f47fb59de60386aca4416cfe32190c7a096f29'
+        },
+        '2.3': {
+            'linux': '9071072d42344fb37cc588429864b00fff447bd5d33d51008641fe6822823f1b',
+            'linux64': '777dbdd9c67ad1b8906288b01ae76bc9f7b80c95e967836f9a700a1679b80008',
+            'darwin': 'df7ca23ba6c8a63149d910b482be04f069b26dd1f7d0ca15e6342cac94e759d7'
+        },
+        '2.3.1': {
+            'linux': '3eed698e8533cca7cbd2c2c87fce39dc14baa7dec03f4b082d870131d2a470e4',
+            'linux64': 'dab7940496d96f1f255a8ef402fa96b94444775e373484e057d2fcabc3928b42',
+            'darwin': '12e363bf5ea3a508600e043b68c47d4148359ca3d999ee207665bb139f8fbf37'
+        },
+        '2.4.0': {
+            'linux': 'a24adb366f87ac0eba829d7188a156a7d897e71893689fab06502c3f4152ac0e',
+            'linux64': '27cdc0d6e8bce2637678f6d076fc780877dffe1bf9aec9e253f95219af9ed099',
+            'darwin': '3eb8afdfa42bc9b08b4d3058e21d4ce978a52722fdcfdc67d6c3ee5013a51aaa'
+        },
+        '2.5.0': {
+            'linux': '3dfd56a986d25929b4ed9f40a5484f72f1d513cd816cf8aaa683106c3391247c',
+            'linux64': '7764fb6b662407f8709eaa334c542aac9cb6bfe3291ac198dad0980ca129f3c2',
+            'darwin': '30b392b969b54cde281b07f5c10865a7f2e11a229c46b8af384ca1d3fe8d4e6e'
+        },
+        '2.5.1': {
+            'linux': 'c0035a2650cafcb384050a8c476ddc41c9fd40b0c3677fab68026f57c715907a',
+            'linux64': '68e0955dbc80a0d51dfa9a8a76d8623f34920ece1bcbc6d910c2be019a653ba8',
+            'darwin': 'db40dc8b5e95ef9c3322bd9897099e91555ef34188cf1c3852a92b081142d183'
+        },
+        '2.6.0': {
+            'linux': '6e0b052c40a59bf5a85ee239980bbcab8b031b4c2bc33b99efe1b072977d9910',
+            'linux64': 'f5d2b0e3594cec57e32d3e43a951041ec330e1e962a836be470d591633e51388',
+            'darwin': '77f1d056484e40e0a8e2e2b2b489eedfe785605ef36b144ffce05f7b748f6acd'
+        },
+        '2.6.1': {
+            'linux': 'd010b1f1aafdb01beb107f16843985508ce81698260ce830690686d9b2768c88',
+            'linux64': '78a48490d1b2dba8571156c2bf822324ca7dae6f6a56a4bbb96d3e8e8885367b',
+            'darwin': '4a78ef76ec38a49a9de40225c337e89486fa09938c600df2bd2dd60110066f65'
+        },
+        '4.0.0': {
+            'linux': '365600947775bc73a902a5b1d11f8b96cf49f07cdbbab28bb47240097b4bb4c5',
+            'linux64': '30365cf4fa6cd8e9ff44126f06dcaebefda35c2543ddcf9b9e8516c29cabe726',
+            'darwin': 'd9e590fe5b9461bbdff56c76636e844ef90a297f82d0d2e204866c8a21759a50'
+        },
+        '4.0.1': {
+            'linux': '721920fcbb6aefc9a98e868e32b7f4ea5fd68b7f9305d08d0a2595327c9c0611',
+            'linux64': '0d6090cee59f4b9bab91ddbea76580d0c232b78dae65aaa9e8fa8d4449ba25b4',
+            'darwin': '06be1299691f7ea558bf8e3bdf3d20debb8ba03cd7cadf04f2d6cbd5fd084430'
+        },
+        '5.0.0': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+        '5.0.1': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+        '5.1.0': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+        '5.1.1': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+        '5.3.0': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+        '5.3.1': {
+            'linux': None,
+            'linux64': None,
+            'darwin': None
+        },
+    },
     'pypy3': {
-        '2.3.1': {'linux': '7eddc6826e58c9c89e68b59ec8caf1596b76401517ad8d26ad5e18e0ffa45db9',
-                  'linux64': '303df2cf4766db20ec77786d9091dce284fdab01d7173c5828a35e86bc931b99',
-                  'darwin': '600d4dad2039b8035582c0e0ce9b71e8236d95db26cff48c84c6d1e0ea6814c1'},
-        '2.4.0': {'linux': '108fdcccfddb9b2cb2fc3cbca5e6f7902ed3ab74a24c8ae29da7fbdadbab4345',
-                  'linux64': '24e680b1742af7361107876a421dd793f5ef852dd5f097546f84b1378f7f70cc',
-                  'darwin': 'dcd86bdb753e93dbf55e1f3af3ffa97eea328b8b77aa60e92ea2260a6258cedb'}
+        '2.3.1': {
+            'linux': '7eddc6826e58c9c89e68b59ec8caf1596b76401517ad8d26ad5e18e0ffa45db9',
+            'linux64': '303df2cf4766db20ec77786d9091dce284fdab01d7173c5828a35e86bc931b99',
+            'darwin': '600d4dad2039b8035582c0e0ce9b71e8236d95db26cff48c84c6d1e0ea6814c1'
+        },
+        '2.4.0': {
+            'linux': '108fdcccfddb9b2cb2fc3cbca5e6f7902ed3ab74a24c8ae29da7fbdadbab4345',
+            'linux64': '24e680b1742af7361107876a421dd793f5ef852dd5f097546f84b1378f7f70cc',
+            'darwin': 'dcd86bdb753e93dbf55e1f3af3ffa97eea328b8b77aa60e92ea2260a6258cedb'
+        }
     },
     'jython': {
         '2.5.0': 'e3d8209ef9eb143df8101a5da6b3482cf457084e3a6247031fd510d71c13ab98',
